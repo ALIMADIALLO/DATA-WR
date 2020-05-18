@@ -1,0 +1,89 @@
+{
+    "name": "HDR_2007-2008_DialloAlima_03",
+    "title": "Schema_Json",
+    "description": "Realisation Schema_Json",
+    "fields": [
+         {
+            "name": "HDI_Rank",
+            "title": "HDI_Rank",
+            "type": "integer",
+            "description": "Classer par Indice de Developpement Humain."
+        },
+        {
+            "name": "Country",
+            "title": "Country",
+            "type": "string",
+            "description": "Nom des pays."
+        },
+        {
+            "name": "Human_poverty_index(HPI-1)-rank",
+            "title": "Human_poverty_index(HPI-1)-rank",
+            "type": "integer",
+            "description": "Classer par Indice de Pauvrete Humaine."
+        },
+        {
+            "name": "Human_poverty_index(HPI-1)-value(percent)",
+            "title": "Humain_poverty_index(HPI-1)-value(percent)",
+            "type": "Number",
+            "description": "Valeur par Indice de Pauvrete Humaine."
+        },
+         {
+            "name": "Probability_at_birth_of_not_surviving_to_age_40(percent_of_cohort)2000-05",
+            "title": "Probability_at_birth_of_not_surviving_to_age_40(percent_of_cohort)2000-05",
+            "type": "Number",
+            "description": "Probabilite a la naissance de ne pas survivre jusqua lage de 40 ans."
+        },
+         {
+            "name": "Adult_illiteracy_rate(percent_aged_15_and_older)1995-2005",
+            "title": "Adult_illiteracy_rate(percent_aged_15_and_older)1995-2005",
+            "type": "Number",
+            "description": "Taux analphabetisme des adultes."
+        },
+        {
+            "name": "Population_not_using_an_inmproved_water_source(percent)2004",
+            "title": "Population_not_using_an_inmproved_water_source(percent)2004",
+            "type": "integer",
+            "description": "Population ayant pas acces a leau potable."
+        },
+         {
+            "name": "Children_under_weigth_for_age(percent_under_age_5)1996-2005",
+            "title": "Children_under_weigth_for_age(percent_under_age_5)1996-2005",
+            "type": "integer",
+            "description": "Pourcentage des enfants de moins de 5 ans ayant un poids inferieur a lage."
+        },
+         {
+            "name": "Population_below_income_poverty_line(percent)-one_dollarUS_a_day_1990-2005",
+            "title": "Population_below_income_poverty_line(percent)-one_dollarUS_a_day_1990-2005",
+            "type": "Number",
+            "description": "Seuil de Pauvrete monetaire de 1$ par jour."
+        },
+        {
+            "name": "Population_below_income_poverty_line(percent)-two_dollarUS_a_day_1990-2005",
+            "title": "Population_below_income_poverty_line(percent)-two_dollarUS_a_day_1990-2005",
+            "type": "Number",
+            "description": "Seuil de Pauvrete monetaire de 2$ par jour."
+        },
+        {
+            "name": "Population_below_income_poverty_line(percent)-National_poverty_line_1990-2004",
+            "title": "Population_below_income_poverty_line(percent)-National_poverty_line_1990-2004",
+            "type": "Number",
+            "description": "Seuil de Pauvrete monetaire national."
+        },
+        {
+            "name": "HPI-1_rank_minus_income_poverty_rank",
+            "title": "HPI-1_rank_minus_income_poverty_rank",
+            "type": "integer",
+            "description": "Rang moins de pauvrete monetaire."
+        },
+        {
+            "name": "HDI_category",
+            "title": "HDI_category",
+            "type": "string",
+            "description": "denominatif selon le rang d'indice de developpement humain"
+        }
+    ],
+    "missingValues": ["NaN", "..","(.)"]
+}
+
+
+
